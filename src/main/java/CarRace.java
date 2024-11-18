@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class CarRace {
-    int raceDurationHours = 24;
-    ArrayList<Car> cars = new ArrayList<>();
+    private int raceDurationHours = 24;
+    private int leaderCarDistance;
+    private ArrayList<Car> cars = new ArrayList<>();
     ArrayList<Car> leaderCars = new ArrayList<>();
-    int leaderCarDistance;
 
     public void addCar(Car car) {
         cars.add(car);
